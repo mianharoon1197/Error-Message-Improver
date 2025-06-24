@@ -8,4 +8,5 @@ This project is a compiler that improves error messages during parsing and seman
 - LLVM code generation
 
 ## How to Run
-python main.py
+run main.py file
+then at terminal give input text.txt file 
