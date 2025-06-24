@@ -1,4 +1,4 @@
-# My Awesome Project
+# Compiler Message Improver Project
 
 This project is a compiler that improves error messages during parsing and semantic analysis.  
 It provides helpful diagnostics for syntax and semantic issues, making it easier for developers to understand and fix their code.
