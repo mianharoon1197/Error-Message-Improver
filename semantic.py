@@ -1,4 +1,4 @@
-# ✅ Final working semantic.py with bypass for param errors
+
 from errors import record
 
 symbol_table = [{}]  # Stack of scopes (for variables)
@@ -42,7 +42,6 @@ def get_var_type(name, line=0):
         if name in scope:
             return scope[name]['type']
 
-    # ✅ Bypass logic: if we're inside a function declaration (check code lines before current line)
     try:
         import parser as parser_module
         lines = parser_module.source_code.split('\n')
@@ -83,7 +82,7 @@ def call_func(name, args, line=0):
             return
 
         for i, (arg_node, (param_name, param_type)) in enumerate(zip(args, expected_params)):
-            # ✅ FIX: get proper type of arg_node (e.g., number -> int, id -> use get_var_type)
+            
             if arg_node.nodetype == 'number':
                 arg_type = 'float' if isinstance(arg_node.value, float) else 'int'
             elif arg_node.nodetype == 'id':
