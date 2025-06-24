@@ -56,7 +56,7 @@ else:
     print("\n\u274C Compilation failed due to parsing or semantic errors.\n")
 
 # 🔎 Optional token view — enable to debug tokens
-DEBUG_TOKENS = False
+DEBUG_TOKENS = True
 if DEBUG_TOKENS:
     print("\U0001F50E Tokens from source code:")
     lexer.input(code)
