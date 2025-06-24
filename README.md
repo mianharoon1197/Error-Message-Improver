@@ -17,4 +17,4 @@ It provides helpful diagnostics for syntax and semantic issues, making it easier
 
 2. When the program starts, it will prompt:
 
-    -Enter file: test.txt
+    Enter file: test.txt
