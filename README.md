@@ -14,3 +14,7 @@ It provides helpful diagnostics for syntax and semantic issues, making it easier
 1. Run the `main.py` file:
    ```bash
    python main.py
+
+2. When the program starts, it will prompt:
+
+    -Enter file: text.txt
